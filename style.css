@@ -1,0 +1,185 @@
+/* for background color */
+body {
+  background-color: whitesmoke;
+}
+/* ==================================================================== */
+/* login form */
+#loginform {
+  background-color: #eceff2;
+  border: 1px solid rgb(0, 0, 245);
+  width: 500px;
+  height: 320px;
+  margin: auto;
+  margin-top: 100px;
+}
+/* user / password */
+#loginform label {
+  margin: 20px;
+  display: inline-block;
+  width: 100px;
+}
+/* boxes */
+#loginform input {
+  /* margin-top: 20px; */
+  border: 1px solid rgb(24, 95, 119);
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+}
+/* we can remove it if we don't need it */
+#loginform input:focus {
+  background-color: whitesmoke;
+}
+
+#loginform p, #registerform p {
+  text-align: center;
+}
+#loginform button {
+  background-color: transparent;
+  border: 1px solid rgb(24, 95, 119);
+  color: rgb(199, 19, 19);
+  width: 150px;
+  height: 30px;
+  margin-left: 70px;
+  margin-top: 60px;
+  /* align-items: center; */
+}
+button:hover {
+  cursor: pointer;
+}
+#loginform .input-control.success input {
+  border-color: #09c372;
+  background-color: whitesmoke;
+}
+
+#loginform .input-control.error input {
+  border-color: #ff3860;
+}
+/* optional change the color of label of not ?????? */
+#loginform .input-control.error label {
+  color: #ff3860;
+}
+
+#loginform .divError {
+  color: #ff3860;
+  /* font-size: px;  */
+  height: 13px;
+  margin-left: 145px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* ========================================================================= */
+/* Register form */
+#registerform {
+  background-color: #eceff2;
+  border: 1px solid rgb(0, 0, 245);
+  width: 570px;
+  height: 550px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5px;
+}
+#registerform label {
+  margin: 20px;
+  display: inline-block;
+  width: 190px;
+}
+#info input {
+  border: 1px solid rgb(24, 95, 119);
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+}
+#registerform button {
+  background-color: transparent;
+  border: 1px solid rgb(24, 95, 119);
+  color: rgb(199, 19, 19);
+  width: 150px;
+  height: 30px;
+  margin-left: 90px;
+  margin-top: 60px;
+  clear: both;
+}
+button:hover {
+  cursor: pointer;
+}
+
+#registerform .input-control.success input {
+  border-color: #09c372;
+  background-color: whitesmoke;
+}
+
+#registerform .input-control.error input {
+  border-color: #ff3860;
+}
+
+#registerform .input-control.error label {
+  color: #ff3860;
+}
+
+#registerform .divError {
+  color: #ff3860;
+  height: 13px;
+  margin-left: 235px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+/* ============================================================ */
+/* ==================== Quiz Page============================== */
+#container{
+
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 100px;
+}
+.exam_header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.female {
+  background-color: lightpink;
+}
+
+.male {
+  background-color: lightslategray;
+}
+
+#userName,
+#quizName,
+#timer {
+  border: 1px black solid;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.btn1 {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  right: 50px;
+  font-size: 20px;
+  background-color: rgb(211, 206, 206);
+  color: rgb(155, 39, 4);
+
+}
+
+#question {
+  margin: 20px;
+  padding: 40px;
+}
+#quesHead{
+  margin-bottom: 20px;
+}
+.noanswer {
+  box-shadow: 1px 1px 20px 10px red;
+}
+
+#warning {
+  text-align: center;
+  color: red;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+       *{
+           font-size: 22px;
+           margin: 0;
+           padding: 0;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="exam_header">
+            <p id="userName"></p>
+            <p id="quizName">from</p>
+            <p id="timer"></p>
+        </div>
+        <div id="question">
+            <p id="questionNum">Question 1:</p>
+            <p id="quesHead" class="  quesHead"></p>
+            <input id="Choice1" type="radio" name="ansr">
+            <label for="Choice1"></label>
+            </br>
+            </br>
+            <input id="Choice2" type="radio" name="ansr">
+            <label for="Choice2"></label>
+            </br>
+            </br>
+            <input id="Choice3" type="radio" name="ansr">
+            <label for="Choice3"></label>
+            </br>
+            </br>
+            <input id="Choice4" type="radio" name="ansr">
+            <label for="Choice4"></label>
+            </br>
+            </br>
+            <input id="Choice5" type="radio" name="ansr">
+            <label for="Choice5"></label>
+            <p id="warning"></p>
+
+        </div>
+        <button id="nextBtn" class="btn1">Next</button>
+    </div>
+
+    <script src="./Exam-model.js"></script>
+</body>
+</html>
